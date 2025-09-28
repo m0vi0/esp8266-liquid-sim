@@ -5,6 +5,8 @@ An **MPU6050 accelerometer + gyroscope** provides tilt input, so gravity in the 
 
 The simulation is inspired by basic fluid/particle dynamics: multiple "particles" bounce around the grid, collide, and shift under gravity, creating the illusion of liquid flowing across the LED matrix.
 
+![Demo_liquid_sim](https://github.com/user-attachments/assets/7d545c9a-4743-4de2-bf0d-7340781c30cc)
+
 ---
 
 ## ✨ Features
