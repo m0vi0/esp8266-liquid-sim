@@ -37,7 +37,7 @@ Optional: any other WS2812B-compatible LED grid can be adapted by changing `WIDT
   - [`Adafruit_Sensor`](https://github.com/adafruit/Adafruit_Sensor)  
   - [`FastLED`](https://github.com/FastLED/FastLED)  
   - Custom `"fl/leds.h"` and `"fl/xymap.h"` mapping utilities  
-
+  - heres a link to the FastLED/XYmap docs :https://fastled.io/docs/d0/dce/classfl_1_1_x_y_map.html  
 ---
 
 ## ⚙️ How It Works
