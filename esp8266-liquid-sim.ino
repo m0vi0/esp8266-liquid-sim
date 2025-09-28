@@ -41,7 +41,7 @@ void setup() {
     while (1) delay(10);
   }
 
-  FastLED.addLeds<WS2812B, 2, GRB>(leds, NUM_LEDS);
+  FastLED.addLeds<WS2812B, 2, GRB>(leds, NUM_LEDS); //FastLED.addLeds<Matrix type, Data Pin, GRB>(leds, NUM_LEDS)
   FastLED.clear();
 
   // Create particles in random spots
