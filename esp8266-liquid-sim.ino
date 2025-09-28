@@ -27,7 +27,7 @@ struct Particle {
   vec V;  // Velocity
 };
 
-const int Num_of_particles = 30;
+const int Num_of_particles = 20;
 std::vector<Particle> particles;
 
 // Gravity vector
@@ -130,7 +130,7 @@ void loop() {
 
       if (dist < minDist && dist > 0.0001f) {
         vec n = normalize(diff);
-        float overlap = 0.1f * (minDist - dist);
+        float overlap = 1.0f * (minDist - dist);
 
         // Push particles apart
         particles[i].X.x -= overlap * n.x;
